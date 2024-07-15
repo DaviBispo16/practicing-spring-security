@@ -1,2 +1,4 @@
-package auth.auth.domain.users;public record LoginResponseDTO() {
+package auth.auth.domain.users;
+
+public record LoginResponseDTO(String token) {
 }

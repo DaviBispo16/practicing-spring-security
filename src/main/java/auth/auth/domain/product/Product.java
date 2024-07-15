@@ -5,7 +5,8 @@ import lombok.*;
 
 import java.util.UUID;
 
-@Entity
+@Entity(name = "product")
+@Table(name = "product")
 @NoArgsConstructor
 @AllArgsConstructor
 @Getter
